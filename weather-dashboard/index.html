@@ -3,112 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>Weather Dashboard</title>
-  <style>
-    :root {
-      --bg-light: linear-gradient(135deg, #3acbf2, #7a60ff);
-      --bg-dark: linear-gradient(135deg, #1a1a2e, #16213e);
-      --text-light: #ffffff;
-      --text-dark: #f0f0f0;
-      --box-bg-light: rgba(255, 255, 255, 0.2);
-      --box-bg-dark: rgba(0, 0, 0, 0.3);
-    }
-
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      padding: 40px 20px;
-      min-height: 100vh;
-      background: var(--bg-light);
-      color: var(--text-light);
-      transition: background 0.4s, color 0.4s;
-    }
-
-    .dark-mode {
-      background: var(--bg-dark);
-      color: var(--text-dark);
-    }
-
-    .container {
-      background: rgba(255, 255, 255, 0.1);
-      padding: 30px;
-      border-radius: 20px;
-      box-shadow: 0 0 15px rgba(0,0,0,0.2);
-      max-width: 600px;
-      width: 100%;
-    }
-
-    input {
-      padding: 10px;
-      border: none;
-      border-radius: 10px;
-      width: 60%;
-    }
-
-    button {
-      padding: 10px 15px;
-      margin-left: 10px;
-      border: none;
-      background: #4b00ff;
-      color: white;
-      border-radius: 10px;
-      cursor: pointer;
-    }
-
-    .theme-toggle {
-      float: right;
-      background: transparent;
-      border: 1px solid white;
-    }
-
-    .weather-info, .forecast {
-      margin-top: 20px;
-    }
-
-    .header-row {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .info-boxes, .forecast-cards {
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-    }
-
-    .info-box, .forecast-card {
-      background: var(--box-bg-light);
-      padding: 10px;
-      border-radius: 10px;
-      flex: 1;
-      margin: 10px 5px;
-      min-width: 28%;
-      text-align: center;
-    }
-
-    .dark-mode .info-box, .dark-mode .forecast-card {
-      background: var(--box-bg-dark);
-    }
-
-    ul#historyList {
-      list-style: none;
-      padding-left: 0;
-      display: flex;
-      gap: 10px;
-      flex-wrap: wrap;
-      margin-top: 15px;
-    }
-
-    ul#historyList li {
-      background: #ffffff22;
-      padding: 6px 10px;
-      border-radius: 8px;
-      cursor: pointer;
-    }
-  </style>
+  <link 
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
   <div class="container">
@@ -210,3 +106,4 @@
   </script>
 </body>
 </html>
+
